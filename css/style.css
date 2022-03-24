@@ -24,4 +24,22 @@
 
 body {
   background-color: rgb(206, 224, 224);
+  position: relative;
+}
+
+.sign {
+  font-family: Lobster;
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  transform-origin: left;
+  transform: rotate(90deg);
+  color: blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+  .sign {
+    left: 30%;
+  }
 }
