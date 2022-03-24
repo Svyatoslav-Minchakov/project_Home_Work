@@ -1,15 +1,23 @@
 .riters {
-    font-family: Pacifico;
-    font-size: 18px;
-    color: blueviolet;
-    text-align: center;
+  font-family: Pacifico;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
 }
 
 .tittle {
-    color: rgb(5, 160, 64);
-    font-family: Pacifico;
-    font-size: 25px;
-    width: 300px;
-    margin: 0 auto;
+  color: rgb(5, 160, 64);
+  font-family: Pacifico;
+  font-size: 25px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 
+.riters:nth-child(-n + 7) {
+  color: rgb(15, 127, 202);
+}
+
+.riters:nth-child(n + 8) {
+  color: rgb(221, 221, 10);
 }
